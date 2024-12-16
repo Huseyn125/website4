@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Parkinsans:wght@300..800&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Kanit", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+header{
+  position:relative ;
+  display: flex;
+  align-items: center;
+  gap: 50em;
+  background:#ffffff;
+}
+header .logo a {
+  position: absolute;
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  left: 50px;
+  top: 20px;
+  color: #208b32;
+  transition: all 0.3s ease;
+}
+header .logo a:hover{
+  color:rgb(63, 170, 81);
+}
+header .main{
+  position: relative;
+  right: 200px;
+  top: 30px ;
+}
+header .main ul {
+  position: absolute;
+  display: flex;
+  gap: 30px;
+  margin-left: 50px;
+}
+header .main ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.25em;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+header .main ul li a:hover{
+  color:#208b32 ;
+}
+header .icons{
+  position: relative;
+  display: inline;
+  align-items: center;
+  justify-content: center;
+}
+header .icons .icon {
+  position: absolute;
+  margin-top: 18px;
+  position: absolute;
+  margin-left: 550px;
+  display: flex;
+}
+header .icons .icon li a i{
+  font-size: 30px;
+}
+section{
+  position: relative;
+  top: 100px;
+  height: 600px;
+  background:rgb(238, 238, 238);
+}
+section .image img{
+  height: 500px;
+  margin-left: 700px;
+}
+section  .first{
+  position: absolute;
+  color:  #208b32;
+  font-weight: 500;
+  font-size: 60px;
+  top: 40%;
+  left: 25%;
+  transform: translate(-65%,-145%);
+}
+section h2{
+  position: absolute;
+  color: black;
+  font-size: 30px;
+  font-weight: 300;
+  top: 40%;
+  left: 25%;
+  transform: translate(-55%,-125%);
+}
+section .text{
+  position: relative;
+  width: 350px;
+  height: 200px;
+  top: -270px;
+  left: 70px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 24px;
+}
+.products {
+  position: relative;
+  background: white;
+}
+.products h1{
+  position: absolute;
+  font-size: 40px;
+  font-weight: 300;
+  color:black;
+  left: 35%;
+}
+.products .salfetka{
+  position: absolute;
+  font-weight: 400;
+  text-align: center;
+  top: 45px;
+  left: 31%;
+  font-size: 20px;
+}
+.products .salfetka2{
+  position: absolute;
+  font-weight: 400;
+  font-size: 20px;
+  top: 64px;
+  left: 500px;
+}
+.products .product{
+  position: relative;
+  display: flex;
+  gap: 30px;
+}
+.products .product .first{
+  top: 700px;
+  position: absolute;
+  width: 300px;
+  height: 400px;
+}
+.products .product .first img{
+  position: absolute;
+  width: 100%;
+  border-radius: 50%;
+}
+.products .product .second{
+  top: 122px;
+  left: 500px;
+  position: absolute;
+  width: 300px;
+  height: 400px;
+}
+.products .product .second img{
+  position: absolute;
+  width: 100%;
+  border-radius: 50%;
+}
+.products .product .second .Shoes{
+  position: absolute;
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+  top: 300px;
+  left: 120px;
+}
+.products .product .second  div p{
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  top: 340px;
+  left: 110px;
+  background: #208b32;
+  padding: 5px 10px ;
+  border-radius: 5px ;
+  cursor: pointer;
+}
+.products .product .third {
+  top: 122px;
+  left: 870px;
+  position: absolute;
+  width: 300px;
+  height: 400px;
+}
+.products .product .third .Accessories{
+  position: absolute;
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+  top: 300px;
+  left: 90px;
+}
+.products .product .third  div p{
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  top: 340px;
+  left: 100px;
+  background: #208b32;
+  padding: 5px 10px ;
+  border-radius: 5px ;
+  cursor: pointer;
+}
+.products .product .third img{
+  position: absolute;
+  width: 100%;
+  border-radius: 50%;
+}
+.products .product .first .pidor{
+  position: absolute;
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+  top: 300px;
+  left: 100px;
+}
+.products .product .first div p{
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  top: 340px;
+  left: 100px;
+  background: #208b32;
+  padding: 5px 10px ;
+  border-radius: 5px ;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
